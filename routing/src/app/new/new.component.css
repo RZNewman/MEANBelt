@@ -1,0 +1,23 @@
+.indent{
+    margin-left: 30px;
+}
+.err{
+    color: red;
+}
+form{
+    border: 2px solid grey;
+    border-radius: 5px;
+    padding: 10px;
+}
+input{
+    border: 2px solid grey;
+    border-radius: 5px;
+}
+.butt{
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    background-color: blue;
+    font: 600; 
+}

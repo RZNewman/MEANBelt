@@ -1,0 +1,25 @@
+<h2>Details about {{pet.name}}</h2>
+<a [routerLink]="['/pets']"> Home</a>
+<div class="deet">
+  <p class="bold">Pet Type:</p>
+  <p>{{pet.type}}</p>
+</div>
+<div class="deet">
+  <p class="bold">Description:</p>
+  <p>{{pet.desc}}</p>
+</div>
+<div class="deet">
+  <p class="bold">Skills:</p>
+  <div class="half">
+    <p *ngIf="pet.skill1">{{pet.skill1}}</p>
+    <p *ngIf="pet.skill2">{{pet.skill2}}</p>
+    <p *ngIf="pet.skill3">{{pet.skill3}}</p>
+  </div>
+
+</div>
+<div class="deet">
+  <p class="bold">Likes:</p>
+  <p>{{pet.likes}}</p>
+</div>
+<button [disabled]='liked' (click)="like(pet)">Like</button>
+<button (click)="delete(pet)">Adopt</button>

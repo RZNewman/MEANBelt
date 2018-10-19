@@ -1,0 +1,23 @@
+button{
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    background-color: blue;
+    font: 600; 
+}
+.bold{
+    font-weight: 600;
+    text-align: center;
+}
+p , .half{
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+}
+.half p{
+    width: 100%;
+}
+button:disabled{
+    background-color: gray;
+}
